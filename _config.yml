@@ -1,0 +1,27 @@
+# Site settings
+title: Leif E. Hetland
+email: lehetland1@gmail.com
+url: https://example.github.io
+description:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Leif Hetland
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/leifehetland
+  - title: twitter
+    url: https://twitter.com/LeifEHetland
+  - title: linkedin
+    url: https://www.linkedin.com/in/leifehetland
+  
+
+# Build settings
+markdown: kramdown
+permalink: pretty
