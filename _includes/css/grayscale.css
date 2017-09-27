@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    color: black;
+    background-color: white;
 }
 
 html {
@@ -23,11 +23,18 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
+    margin: 0 0 1.5rem;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+hr {
+  border-top: 1px solid black;
 }
 
 p {
@@ -45,7 +52,7 @@ p {
 }
 
 a {
-    color: {{ site.color.links }};
+    color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,11 +61,22 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: rgba(0,0,0, 0.6);
+}
+
+#iconSize {
+  font-size: 100px;
+}
+
+@media(max-width:767px) {
+  #iconSize {
+    font-size: 60px;
+  }
 }
 
 .light {
     font-weight: 400;
+    font-size: 14px;
 }
 
 .navbar-custom {
@@ -138,7 +156,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/NashvilleSkylinePixelV2.png) no-repeat bottom center scroll;
+    background: url(/img/banner.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -217,7 +235,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -234,7 +252,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -252,14 +270,21 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .download-section {
+    background:
+    /* top, transparent*/
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image */
+    url(/img/norway2.png) no-repeat center center scroll;
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/night_sky_site.png) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -270,12 +295,19 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
     }
 
     .download-section {
-        padding: 100px 0;
-        background: url(/img/night_sky_site.png) no-repeat center center scroll;
+        background:
+        /* top, transparent*/
+        linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(/img/norway2.png) no-repeat center center scroll;
+        padding: 50px 0;
+        color: #fff;
         background-color: {{ site.color.primary-dark }};
         -webkit-background-size: cover;
         -moz-background-size: cover;
