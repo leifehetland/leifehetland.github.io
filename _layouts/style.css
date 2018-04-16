@@ -1,2 +1,12 @@
+@media only screen and (max-width: 667px) {
+  .container {
+      margin: 2rem 0;
+      padding: 0 1rem;
+      margin-right: auto;
+      margin-left: auto;
+  }
+}
+
+
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}

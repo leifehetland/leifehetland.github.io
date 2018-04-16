@@ -14,11 +14,10 @@ footer: Leif Hetland
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: github
-    url: https://github.com/leifehetland
+
   - title: linkedin
     url: https://www.linkedin.com/in/leifehetland
-  
+
 
 # Build settings
 markdown: kramdown
