@@ -1,6 +1,5 @@
 # Site settings
 title: Leif E. Hetland
-email: lehetland1@gmail.com
 url: https://example.github.io
 description:
 
@@ -10,13 +9,25 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Leif Hetland
+footer: Leif E. Hetland
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 
   - title: linkedin
     url: https://www.linkedin.com/in/leifehetland
+
+  - title: twitter
+    url: https://twitter.com/Glitchyphus
+
+  - title: instagram
+    url: https://www.instagram.com/glitchyphus/
+
+  - title: github
+    url: https://github.com/leifehetland
+
+  
+  
 
 
 # Build settings
