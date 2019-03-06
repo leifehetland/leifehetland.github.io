@@ -43,7 +43,7 @@ body {
 }
 
 .project-section {
-	background:linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/img/neon-city.jpg);
+	background:linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/img/neon-city_smaller_res.jpg);
 	padding: 50px 0;
 	color: #fff;
 	background-color: {{ site.color.primary-dark }};
@@ -189,7 +189,7 @@ a:focus {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(/img/hello.jpg) no-repeat center center scroll;
+	background: url(/img/hello_smaller_res.jpg) no-repeat center center scroll;
 	background-color: {{ site.color.primary-dark }};
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
