@@ -73,11 +73,11 @@ Array(500).fill().forEach(addStar);
 
 // adding a custom background texture
 // can also pass a callback function in here while the image is loading
-const bgTexture = new THREE.TextureLoader().load('/images/wire-sky.jpg');
+const bgTexture = new THREE.TextureLoader().load('./images/wire-sky.jpg');
 scene.background = bgTexture;
 
 // Avatar
-const glitchyTexture = new THREE.TextureLoader().load('/images/glitched_bunisher.jpg');
+const glitchyTexture = new THREE.TextureLoader().load('./images/glitched_bunisher.jpg');
 
 const glitchy = new THREE.Mesh(
 	new THREE.BoxGeometry(3, 3, 3),
@@ -88,8 +88,8 @@ const glitchy = new THREE.Mesh(
 scene.add(glitchy);
 
 // Moon
-const moonTexture = new THREE.TextureLoader().load('/images/pattern.jpg');
-const normalTexture = new THREE.TextureLoader().load('/images/normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('./images/pattern.jpg');
+const normalTexture = new THREE.TextureLoader().load('./images/normal.jpg');
 
 const moon = new THREE.Mesh(
 	new THREE.SphereGeometry(3, 32, 32),
